@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bangumi_ttl">番組表</string>
+    <string name="app_name">番組表</string>
+<string name="btn0_ttl">詳細検索</string>
+<string name="btn1_ttl">ジャンル検索</string>
+<string name="btn2_ttl">フリーワード検索</string>
+<string name="menu0">about</string>
+<string name="genre_ttl0"></string>
+<string name="genre_ttl1"></string>
+<string name="genre_ttl2"></string>
+</resources>

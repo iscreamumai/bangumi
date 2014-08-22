@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <ScrollView
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content">
+  	<LinearLayout
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical">
+  		<EditText
+			android:id="@+id/ch_number"
+			android:hint="チャンネル番号"
+			android:inputType="number"
+			android:lines="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxLength="3"
+			android:width="180dip" android:singleLine="true"/>
+		<Button
+			android:id="@+id/date_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="2011/01/01(土)" />
+		<!-- <Button
+			android:id="@+id/time_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="00:00" /> -->
+		<TextView
+			android:id="@+id/platform"
+			android:text="プラットフォーム"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="#CCCCCC"
+			android:textColor="#000000"
+			android:textSize="20sp"
+			android:paddingTop="5sp"
+			android:paddingBottom="5sp" />
+			
+		<RadioGroup
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<RadioButton
+				android:checked="true"
+				android:text=""
+				android:id="@+id/r_hd"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<RadioButton
+				android:text=""
+				android:id="@+id/r_e2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<RadioButton
+				android:text=""
+				android:id="@+id/r_hikari"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</RadioGroup>
+		<!-- 
+		<TextView
+			android:id="@+id/time_zone"
+			android:text="時間帯"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="#CCCCCC"
+			android:textColor="#000000"
+			android:textSize="20sp"
+			android:paddingTop="5sp"
+			android:paddingBottom="5sp" />
+		<RadioGroup
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<RadioButton
+				android:checked="true"
+				android:text="指定なし"
+				android:id="@+id/t_none"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<RadioButton
+				android:text="放送中"
+				android:id="@+id/t_now"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<RadioButton
+				android:text="午前"
+				android:id="@+id/t_am"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<RadioButton
+				android:text="午後"
+				android:id="@+id/t_pm"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<RadioButton
+				android:text="深夜"
+				android:id="@+id/t_mid"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</RadioGroup>
+		 -->
+		<Button
+			android:id="@+id/all_search_btn"
+			android:text="検索"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+  	
+  	
+  	</LinearLayout>
+  </ScrollView>
+</LinearLayout>
